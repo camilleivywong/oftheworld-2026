@@ -31,7 +31,7 @@ class Cell {
       cursor('pointer');
     }
 
-    stroke(35,36,59);
+    stroke(150, 149, 163);
     strokeWeight(2);
     fill(0);
     rect(this.x,this.y,this.w,this.h);
@@ -47,7 +47,7 @@ class Cell {
 
     if(hovered && this.w > 80 && this.h > 80){
 
-      fill(35,36,59);
+      fill(150, 149, 163);
 
       let hoverSize = min(this.w,this.h) / 6;
       textSize(hoverSize);
@@ -62,7 +62,7 @@ class Cell {
 
     } else {
 
-      fill(35,36,59);
+      fill(150, 149, 163);
 
       let size = min(this.w,this.h) / 3.5;
       textSize(size);
